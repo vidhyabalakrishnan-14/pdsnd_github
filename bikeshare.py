@@ -13,7 +13,7 @@ CITY = ['chicago', 'new york city', 'washington']
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
-
+#getting the input city from user
 
 def get_city():
 
@@ -50,7 +50,7 @@ def get_city():
                   "New York City or Washington")
 
 
-
+#time period 
 
 def get_time_period():
     """
@@ -66,7 +66,7 @@ def get_time_period():
             print('\nSorry, I didn\'t your input, Please try again \n '
                   'Enter either "month" or "day" or "none" \n')
     return time_period.lower()
-
+#getting the input month
 
 def get_month():
     """
@@ -82,7 +82,7 @@ def get_month():
             print('\nSorry I didn\'t understand your input \nPlease Try again')
 
     return month.lower()
-
+#getting the input day
 
 def get_day():
     """
